@@ -1,0 +1,27 @@
+# PyCharm
+.idea/
+
+# Ambiente virtual
+venv/
+.venv/
+
+# Cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos temporários e logs
+*.log
+*.tmp
+
+# Configurações locais
+*.env
+.env
+
+# Banco de dados SQLite (caso use)
+*.sqlite3
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
