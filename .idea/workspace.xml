@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/guppe/escopo_variaveis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guppe/Exercicios.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Exercicios.executor": "Run",
     "Python.recebendo_dados_usiario.executor": "Run",
     "Python.teste.executor": "Run",
     "Python.tipo_numero.executor": "Run",
@@ -81,7 +82,8 @@
       <option name="presentableId" value="Default" />
       <updated>1761418119133</updated>
       <workItem from="1761418131062" duration="9722000" />
-      <workItem from="1761430234354" duration="12273000" />
+      <workItem from="1761430234354" duration="12381000" />
+      <workItem from="1761496309709" duration="944000" />
     </task>
     <servers />
   </component>
@@ -118,5 +120,6 @@
     <SUITE FILE_PATH="coverage/PythonProject$teste.coverage" NAME="teste Coverage Results" MODIFIED="1761418256158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/PythonProject$recebendo_dados_usiario.coverage" NAME="recebendo_dados_usiario Coverage Results" MODIFIED="1761427507743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/PythonProject$tipo_numero.coverage" NAME="tipo_numero Coverage Results" MODIFIED="1761431113868" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/PythonProject$Exercicios.coverage" NAME="Exercicios Coverage Results" MODIFIED="1761496531323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
   </component>
 </project>
