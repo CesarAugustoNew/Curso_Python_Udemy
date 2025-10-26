@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/guppe/tipo_string.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/guppe/escopo_variaveis.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,7 +81,7 @@
       <option name="presentableId" value="Default" />
       <updated>1761418119133</updated>
       <workItem from="1761418131062" duration="9722000" />
-      <workItem from="1761430234354" duration="7589000" />
+      <workItem from="1761430234354" duration="12273000" />
     </task>
     <servers />
   </component>
