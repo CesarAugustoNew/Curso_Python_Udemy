@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/guppe/Listas/listas.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guppe/Exercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/Exercicios_1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guppe/exercicios_and_or_not.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/exercicios_2_and_or_not.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guppe/s5_exercicios.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/exercicios_3.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guppe/Listas/listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/Listas/listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,38 +37,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Exercicios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.condicionais_if_else_elif.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercicios_and_or_not.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ranges.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recebendo_dados_usiario.executor&quot;: &quot;Run&quot;,
-    &quot;Python.s5_exercicios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tipo_numero.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pichau/PycharmProjects/PythonProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Exercicios.executor": "Run",
+    "Python.condicionais_if_else_elif.executor": "Run",
+    "Python.exercicios_and_or_not.executor": "Run",
+    "Python.listas.executor": "Run",
+    "Python.loop_for.executor": "Run",
+    "Python.loop_while.executor": "Run",
+    "Python.ranges.executor": "Run",
+    "Python.recebendo_dados_usiario.executor": "Run",
+    "Python.s5_exercicios.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.tipo_numero.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Pichau/PycharmProjects/PythonProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pichau\PycharmProjects\PythonProject" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Pichau\PycharmProjects\PythonProject\guppe\variaveis_condicionais" />
+      <recent name="C:\Users\Pichau\PycharmProjects\PythonProject\guppe\tipo_Python" />
+      <recent name="C:\Users\Pichau\PycharmProjects\PythonProject\guppe\exercicios" />
       <recent name="C:\Users\Pichau\PycharmProjects\PythonProject\guppe" />
     </key>
   </component>
@@ -93,7 +94,9 @@
       <workItem from="1761418131062" duration="9722000" />
       <workItem from="1761430234354" duration="12381000" />
       <workItem from="1761496309709" duration="18342000" />
-      <workItem from="1761611466510" duration="701000" />
+      <workItem from="1761611466510" duration="1498000" />
+      <workItem from="1761782253460" duration="1042000" />
+      <workItem from="1761863237433" duration="2728000" />
     </task>
     <servers />
   </component>
@@ -131,6 +134,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$exercicios_and_or_not.coverage" NAME="exercicios_and_or_not Coverage Results" MODIFIED="1761509996167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$loop_while.coverage" NAME="loop_while Coverage Results" MODIFIED="1761520580031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$teste.coverage" NAME="teste Coverage Results" MODIFIED="1761418256158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
+    <SUITE FILE_PATH="coverage/PythonProject$listas.coverage" NAME="listas Coverage Results" MODIFIED="1761869222690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe/Listas" />
     <SUITE FILE_PATH="coverage/PythonProject$ranges.coverage" NAME="ranges Coverage Results" MODIFIED="1761518975436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$recebendo_dados_usiario.coverage" NAME="recebendo_dados_usiario Coverage Results" MODIFIED="1761427507743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/PythonProject$loop_for.coverage" NAME="loop_for Coverage Results" MODIFIED="1761516390532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
