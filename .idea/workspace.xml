@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guppe/Listas/listas.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/Listas/listas.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +95,7 @@
       <workItem from="1761496309709" duration="18342000" />
       <workItem from="1761611466510" duration="1498000" />
       <workItem from="1761782253460" duration="1042000" />
-      <workItem from="1761863237433" duration="2728000" />
+      <workItem from="1761863237433" duration="4459000" />
     </task>
     <servers />
   </component>
@@ -134,7 +133,7 @@
     <SUITE FILE_PATH="coverage/PythonProject$exercicios_and_or_not.coverage" NAME="exercicios_and_or_not Coverage Results" MODIFIED="1761509996167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$loop_while.coverage" NAME="loop_while Coverage Results" MODIFIED="1761520580031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$teste.coverage" NAME="teste Coverage Results" MODIFIED="1761418256158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
-    <SUITE FILE_PATH="coverage/PythonProject$listas.coverage" NAME="listas Coverage Results" MODIFIED="1761869222690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe/Listas" />
+    <SUITE FILE_PATH="coverage/PythonProject$listas.coverage" NAME="listas Coverage Results" MODIFIED="1761869654050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe/Listas" />
     <SUITE FILE_PATH="coverage/PythonProject$ranges.coverage" NAME="ranges Coverage Results" MODIFIED="1761518975436" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$recebendo_dados_usiario.coverage" NAME="recebendo_dados_usiario Coverage Results" MODIFIED="1761427507743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />
     <SUITE FILE_PATH="coverage/PythonProject$loop_for.coverage" NAME="loop_for Coverage Results" MODIFIED="1761516390532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
