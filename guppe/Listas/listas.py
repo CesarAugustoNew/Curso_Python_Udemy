@@ -61,3 +61,36 @@ print(lista2)
 lista1 = lista1 + lista2
 lista1.extend(lista2)
 print(lista1)
+
+# Podemos facilmente inverter uma lista
+
+# Forma 1
+lista1.reverse()
+lista2.reverse()
+print(lista1)
+print(lista2)
+
+# Forma 2
+print(lista1[::-1])
+print(lista2[::-1])
+
+# Copiar uma lista
+lista4 = lista2.copy()
+print(lista4)
+
+# Podemos contar quantos elementos temos em uma lista
+print(len(lista4))
+
+# Podemos remover facilmente o ultimo elemento de uma lista
+print(lista4)
+lista4.pop()
+print(lista4)
+
+# Podemos remover um elemento pelo indice
+lista4.pop(2)
+print(lista4)
+
+# Podemos remover todos os elementos
+print(lista2)
+lista2.clear()
+print(lista2)
