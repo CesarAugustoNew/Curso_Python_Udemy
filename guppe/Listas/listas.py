@@ -3,11 +3,6 @@ Listas
 
 Listas em Python funcional como vetores/matrizes (arrays) em outras linguagens, com a fiderença de serem DINAMICO e tambem de podermos colocar qualquer tipo de dados.
 
-Linguagens C/JAVA: Arrays
-
-    - Possuem tamanho e tipo de dado fixo; Ou seja, podemos criar a lista e simplesmente ir adicionando elementos;
-    - Qualquer tipo de dados: Nao possuem tipo de dado fixo; Ou seja, podemos colocar qualquer tipo de dado;
-
 As Listas em Python são representadas por: []
 
 """
@@ -94,3 +89,35 @@ print(lista4)
 print(lista2)
 lista2.clear()
 print(lista2)
+
+# Podemos facilmente repetir elementos em uma lista
+nova = [1, 2, 3]
+nova = nova * 3
+print(nova)
+
+# Podemos facilmente converter uma string para uma lista
+
+# Exemplo 1
+
+curso = 'Programação em Python: Essencial'
+print(curso)
+curso = curso.split()
+print(curso) # Por padrao, o split separa os elementos da lista pelo espaco entra elas.
+
+# Exemplo 2
+curso = 'Programaçao,em,Python:,Essencial'
+print(curso)
+curso = curso.split(',')
+print(curso)
+
+# Convertendo uma lista em uma string
+lista6 = ['Prograçao', 'em', 'Python', 'Essencial']
+print(lista6)
+
+# Abaixo estamos falando: Pega a lista6, coloca espaço entre cada elemento e transforma em uma string
+curso = ' '.join(lista6)
+print(curso)
+
+# Abaixo estamos falando: Pega a lista6, coloca cyfrão entre cada elemento e transforma em uma string
+curso = '$'.join(lista6)
+print(curso)
