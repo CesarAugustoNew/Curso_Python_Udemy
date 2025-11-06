@@ -121,3 +121,80 @@ print(curso)
 # Abaixo estamos falando: Pega a lista6, coloca cyfrão entre cada elemento e transforma em uma string
 curso = '$'.join(lista6)
 print(curso)
+
+# U tilizando for
+
+soma = ''
+for elemento in lista6:
+    print(elemento)
+    soma = soma + elemento
+print(soma)
+
+# Utilizando while
+
+carrinho = []
+produto = ''
+
+while produto != 'sair':
+    print("Adicione um produto na lista ou digite 'sair' para sair: ")
+    produto = input()
+    if produto != 'sair':
+        carrinho.append(produto)
+
+for produto in carrinho:
+    print(produto)
+
+# Utilizando variaveis em listas
+numeros = [1, 2, 3, 4, 5]
+print (numeros)
+
+num1 = 1
+num2 = 2
+num3 = 3
+num4 = 4
+num5 = 5
+
+numeros = [num1, num2, num3, num4, num5]
+print(numeros)
+
+# Fazemos acesso aos elementos de forma indexada
+
+cores = ['verde', 'amarelo', 'azul']
+
+print(cores[0]) #verde
+print(cores[1]) #amarelo
+print(cores[2]) #azul
+
+# Fazer acesso aos elementos de forma indexada inversa
+print(cores[-1])
+print(cores[-2])
+
+for cor in cores:
+    print(cor)
+
+indice = 0
+while indice < len(cores):
+    print(cores[indice])
+    indice = indice + 1
+
+# Gerar indice em um for
+for indice, cor in enumerate(cores):
+    print(indice, cor)
+
+# Listas aceitam valores repetidos
+listaRepeticao = []
+listaRepeticao.append(42)
+listaRepeticao.append(42)
+listaRepeticao.append(33)
+listaRepeticao.append(33)
+listaRepeticao.append(42)
+
+print(listaRepeticao)
+
+# Encontrar o indice de um elemento na lista
+
+numerosLista = [5, 6, 7, 8, 9, 10]
+# Em qual indice esta o valor 6
+print(numerosLista.index(6))
+# Em qual indice da lista esta o valor 9
+print(numerosLista.index(9))
