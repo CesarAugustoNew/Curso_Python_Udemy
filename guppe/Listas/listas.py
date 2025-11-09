@@ -6,7 +6,7 @@ Listas em Python funcional como vetores/matrizes (arrays) em outras linguagens, 
 As Listas em Python são representadas por: []
 
 """
-
+"""
 type ([])
 
 lista1 = [1, 99, 4, 3, 63, 34, 86, 43, 23, 3, 1]
@@ -29,9 +29,9 @@ print(lista1.count(1))
 # Adicionar elementos em listas
 
 """
-Para adicionar elementos em listas, utilizamos a função append
+#Para adicionar elementos em listas, utilizamos a função append
 
-OBS: Com append, nos so conseguimos adicionar 1 elemento por vez
+#OBS: Com append, nos so conseguimos adicionar 1 elemento por vez
 """
 print(lista1)
 lista1.append(100)
@@ -194,7 +194,45 @@ print(listaRepeticao)
 # Encontrar o indice de um elemento na lista
 
 numerosLista = [5, 6, 7, 8, 9, 10]
+
 # Em qual indice esta o valor 6
 print(numerosLista.index(6))
+
 # Em qual indice da lista esta o valor 9
 print(numerosLista.index(9))
+
+# Retorna o indice do primeiro elemento encontrado
+print(numerosLista.index(4))
+
+# Podemos fazer busca dentro de um range, ou seja, qual indice começar a buscar
+print(numerosLista.index(5, 1)) # Buscando a partir do indice 1
+print(numerosLista.index(5, 2)) # Buscando a partir do indice 2
+print(numerosLista.index(5, 3)) # Buscando a partir do indice 3
+#print(numerosLista.index(5, 4)) # Buscando a partir do indice 4
+# OBS: Caso nao tenha este elemento na lista sera apresentado erro ValueError
+
+
+# Revisão de slicing"""
+
+# lista[inicio:fim:passo]
+# range[inicio:fim:passo]
+
+# Trabalhando com slice de lista com o parametro 'inicio'
+
+lista = [1, 2, 3, 4]
+
+print(lista[1:]) # Iniciando no indice 1 e pegando todos os elementos restantes
+
+# Trabalhando com slice de lista com parametro 'fim'
+
+print(lista[:2]) # começa em 0, pega ate o indice 2 - 1
+
+print(lista[:4]) # começa em 0, pega ate o indice 4 - 1
+
+print(lista[1:3]) # começa em 1, pega ate o indice 3 - 1
+
+# Trabalhando com slice de lista com parametros 'passo'
+
+print(lista[1::2]) # começa em 1, vai ate o final, de 2 em 2
+
+print(lista[::2]) # começa em 0, vai ate o final, de 2 em 2
