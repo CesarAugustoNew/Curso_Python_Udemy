@@ -212,7 +212,7 @@ print(numerosLista.index(5, 3)) # Buscando a partir do indice 3
 # OBS: Caso nao tenha este elemento na lista sera apresentado erro ValueError
 
 
-# Revisão de slicing"""
+# Revisão de slicing
 
 # lista[inicio:fim:passo]
 # range[inicio:fim:passo]
@@ -236,3 +236,15 @@ print(lista[1:3]) # começa em 1, pega ate o indice 3 - 1
 print(lista[1::2]) # começa em 1, vai ate o final, de 2 em 2
 
 print(lista[::2]) # começa em 0, vai ate o final, de 2 em 2
+
+"""
+# Invertendo valores em uma lista
+
+nomes = ['Geek', 'University']
+
+nomes[0], nomes[1] = nomes[1], nomes[0]
+print(nomes)
+
+nomes = ['Geek', 'University']
+nomes.reverse()
+print(nomes)
