@@ -202,12 +202,12 @@ print(numerosLista.index(6))
 print(numerosLista.index(9))
 
 # Retorna o indice do primeiro elemento encontrado
-print(numerosLista.index(4))
+print(numerosLista.index(5))
 
 # Podemos fazer busca dentro de um range, ou seja, qual indice começar a buscar
-print(numerosLista.index(5, 1)) # Buscando a partir do indice 1
-print(numerosLista.index(5, 2)) # Buscando a partir do indice 2
-print(numerosLista.index(5, 3)) # Buscando a partir do indice 3
+print(numerosLista.index(7, 1)) # Buscando a partir do indice 1
+print(numerosLista.index(10, 2)) # Buscando a partir do indice 2
+print(numerosLista.index(9, 3)) # Buscando a partir do indice 3
 #print(numerosLista.index(5, 4)) # Buscando a partir do indice 4
 # OBS: Caso nao tenha este elemento na lista sera apresentado erro ValueError
 
@@ -280,6 +280,39 @@ print(num3)
 
 # OBS: Se tivermos um numero diferente de elementos na lista ou variaveis para receber os dados, teremos ValueError
 
+
+# Copiando uma lista para outra (Shallow Copy e Deep Copy)
+
+# Forma 1 - Deep Copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista.copy()
+
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
+
+# Veja que ao utilizarmos lista.copy() copiamos os dados da lista para uma nova lista, mas elas ficaram totalmente independentes, ou seja, modificando uma lista, nao afeta a outra. Isso em python é chamado de Deep Copy (cópia profunda)
+
+# Forma 2 - Shallow Copy
+
+lista = [1, 2, 3]
+print(lista)
+
+nova = lista
+print(nova)
+
+nova.append(4)
+
+print(lista)
+print(nova)
+
+# Veja que utilizamos a copia via atribuição e copiamos os dados da lista para a nova lista, mas após realizar modificação em uma das listas, essa modificação se refletiu em ambas as listas. Isso em Python e chamado de Shallow Copy
 
 
 
