@@ -86,3 +86,9 @@ print(tupla2)
 
 tupla1 = tupla1 + tupla2 # Tuplas são imutáveis, mas podemos sobrescrever seus alores
 print(tupla1)
+
+# Verificar se determinado elemento está contido na tupla
+
+tupla = (1, 2, 3)
+
+print(3 in tupla)
