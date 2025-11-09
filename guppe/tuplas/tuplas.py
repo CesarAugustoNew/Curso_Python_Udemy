@@ -64,3 +64,25 @@ print(sum(tupla))
 print(len(tupla))
 print(max(tupla))
 print(min(tupla))
+
+# Concatenação de tuplas
+
+tupla1 = (1, 2, 3)
+print(tupla1)
+
+tupla2 = (4, 5, 6)
+print(tupla2)
+
+print(tupla1 + tupla2) # Tuplas são imutáveis
+
+print(tupla1)
+print(tupla2)
+
+tupla3 = tupla1 + tupla2
+
+print(tupla3)
+print(tupla1)
+print(tupla2)
+
+tupla1 = tupla1 + tupla2 # Tuplas são imutáveis, mas podemos sobrescrever seus alores
+print(tupla1)
