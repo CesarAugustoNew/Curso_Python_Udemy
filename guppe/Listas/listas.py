@@ -6,7 +6,7 @@ Listas em Python funcional como vetores/matrizes (arrays) em outras linguagens, 
 As Listas em Python são representadas por: []
 
 """
-"""
+
 type ([])
 
 lista1 = [1, 99, 4, 3, 63, 34, 86, 43, 23, 3, 1]
@@ -28,11 +28,11 @@ print(lista1.count(1))
 
 # Adicionar elementos em listas
 
-"""
+
 #Para adicionar elementos em listas, utilizamos a função append
 
 #OBS: Com append, nos so conseguimos adicionar 1 elemento por vez
-"""
+
 print(lista1)
 lista1.append(100)
 print(lista1)
@@ -237,7 +237,6 @@ print(lista[1::2]) # começa em 1, vai ate o final, de 2 em 2
 
 print(lista[::2]) # começa em 0, vai ate o final, de 2 em 2
 
-"""
 # Invertendo valores em uma lista
 
 nomes = ['Geek', 'University']
@@ -248,3 +247,48 @@ print(nomes)
 nomes = ['Geek', 'University']
 nomes.reverse()
 print(nomes)
+
+# Soma, Valor Máximo, Valor Mínimo, Tamanho
+
+# Se os valores forem todos inteiros ou reais
+
+lista = [1, 2, 3, 4, 5, 6]
+
+print(sum(lista)) # soma
+print(max(lista)) # máximo valor
+print(min(lista)) # mínimo valor
+print(len(lista)) # tamanho da lista
+
+
+
+# Transformar uma lista em tupla
+
+lista = [1, 2, 3, 4, 5, 6]
+print(lista)
+print(type(lista))
+
+tupla = tuple(lista)
+print(tupla)
+print(type(tupla))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
