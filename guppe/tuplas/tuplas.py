@@ -38,3 +38,29 @@ print(type(tupla5))
 
 # CONCLUSÃO: Podemos concluir que tuplas são definidas pela vírgula e não pelo uso do parênteses ( (4) -> Não é tupla  (4,) -> É tupla  4, -> É tupla)
 
+# Podemos gerar uma tupla dinamicamente com range(inicio,fim,passo)
+
+tupla = tuple(range(11))
+print(tupla)
+print(type(tupla))
+
+# Desempacotamento de tupla
+
+tupla = ('Geek University', 'Programação em Python: Essencial')
+
+escola, curso = tupla
+
+print(escola)
+print(curso)
+# OBS: Gera erro (ValueError) se colocarmos um numero diferente de elementos para desempacotar
+
+# Métodos para adição e remoção de elementos nas tuplas não existem, dado o fato das tuplas serem imutaveis
+
+# Soma, Valor Máximo, Valor Mínimo e Tamanho
+# Se os valores forem todos inteiros ou reais
+
+tupla = (1, 2, 3, 4, 5, 6)
+print(sum(tupla))
+print(len(tupla))
+print(max(tupla))
+print(min(tupla))
