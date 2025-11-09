@@ -248,18 +248,15 @@ nomes = ['Geek', 'University']
 nomes.reverse()
 print(nomes)
 
+
 # Soma, Valor Máximo, Valor Mínimo, Tamanho
-
 # Se os valores forem todos inteiros ou reais
-
 lista = [1, 2, 3, 4, 5, 6]
 
 print(sum(lista)) # soma
 print(max(lista)) # máximo valor
 print(min(lista)) # mínimo valor
 print(len(lista)) # tamanho da lista
-
-
 
 # Transformar uma lista em tupla
 
@@ -272,6 +269,16 @@ print(tupla)
 print(type(tupla))
 
 
+# Desempacotamento de listas
+
+lista = [1, 2, 3]
+
+num1, num2, num3 = lista
+print(num1)
+print(num2)
+print(num3)
+
+# OBS: Se tivermos um numero diferente de elementos na lista ou variaveis para receber os dados, teremos ValueError
 
 
 
