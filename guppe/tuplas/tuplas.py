@@ -105,6 +105,16 @@ for indice, valor in enumerate(tupla):
     print(indice, valor)
 
 
+# Contando elementos dentro de uma tupla
+
+tupla = ('a', 'b', 'c', 'd', 'e', 'f')
+
+print(tupla.count('a'))
+
+escola = tuple('Geek University')
+print(escola)
+
+print(escola.count('e'))
 
 
 
