@@ -92,3 +92,38 @@ print(tupla1)
 tupla = (1, 2, 3)
 
 print(3 in tupla)
+
+
+# Iterando sobre uma tupla
+
+tupla = (1, 2, 3)
+
+for n in tupla:
+    print(n)
+
+for indice, valor in enumerate(tupla):
+    print(indice, valor)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
