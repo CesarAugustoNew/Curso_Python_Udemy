@@ -147,6 +147,21 @@ while i < len(meses):
 
 print(meses[5:9])
 
+# Copiando uma tupla para outra
+
+tupla = (1, 2, 3)
+print(tupla)
+
+nova = tupla
+
+print(nova)
+print(tupla)
+
+outra = (4, 5, 6)
+
+nova = nova + outra
+print(nova)
+print(tupla)
 
 
 
