@@ -30,3 +30,18 @@ paises = dict(br='Brasil', eua='Estados Unidos', py='Paraguai')
 
 print(paises)
 print(type(paises))
+
+# Acessando elementos
+
+# Forma 1 - Acessando via chave, da mesma forma que lista/tupla
+print(paises['br'])
+
+#print(paises['ru'])
+# OBS: Caso tentamos fazer um acesso utilizando uma chave que não existe, teremos o erro KeyError
+
+# Forma 2 - Acessando via get - Recomendada
+
+print(paises.get('br'))
+print(paises.get('eua'))
+print(paises.get('ru'))
+# OBS: Caso tentamos fazer um acesso utilizando uma chave que não existe, teremos None
