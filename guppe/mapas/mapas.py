@@ -38,7 +38,12 @@ print(receita.items())
 for chave, valor in receita.items():
     print(f'Chave: {chave}, Valor: {valor}')
 
+# Soma, Valor Maximo, Valor Minimo, Tamanho
 
+# Se os valores forem todos inteiros ou reais
 
-
+print(sum(receita.values()))
+print(max(receita.values()))
+print(min(receita.values()))
+print(len(receita))
 
