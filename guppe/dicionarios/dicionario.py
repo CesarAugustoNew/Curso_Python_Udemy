@@ -135,6 +135,53 @@ print(receita)
 # Se a chave não existir sera gerado um KeyError
 # OBS: Neste caso o valor removido nao e retornado
 
+# Imagine que voce tem um comercio eletronico, onde temos um carrinho de compras na qual adicionamos produtos
+"""
+Carrinho de Compras:
+    Produto 1:
+        - nome;
+        - quantidade;
+        - preço;
+    Produto 2:
+        - nome;
+        - quantidade;
+        - preço;
+"""
+
+# 1 - Poderiamos utilizar uma Lista para isso? Sim
+
+carrinho = []
+
+produto1 = ['Playstation 4', 1, 2500.00]
+produto2 = ['God of War 4', 1, 200.00]
+
+carrinho.append(produto1)
+carrinho.append(produto2)
+
+print(carrinho)
+
+# 2 - Poderiamos utilizar uma Tupla para isso? Sim
+
+produto1 = ['Playstation 4', 1, 2500.00]
+produto2 = ['God of War 4', 1, 200.00]
+
+carrinho = (produto1, produto2)
+
+print(carrinho)
+
+# 3 - Poderiamos utilizar um Dicionario para isso? Sim
+
+carrinho = []
+
+produto1 = {'nome': 'Playstation 4', 'quantidade': 1, 'preco': 2500.00}
+produto2 = {'nome': 'God of War 4', 'quantidade': 1, 'preco': 156.00}
+
+carrinho.append(produto1)
+carrinho.append(produto2)
+
+print(carrinho)
+
+# Desta forma, facilmente adicionamos ou removemos produtos no carrinho e em cada produto podemos ter a certeza sobre cade informação.
 
 
 
