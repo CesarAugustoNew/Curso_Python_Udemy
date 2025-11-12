@@ -110,6 +110,30 @@ print(receita)
 # CONCLUSÃO 2: Em dicionarios, não podemos ter chaves repetidas.
 
 
+# Remover dados de um dicionario
+
+receita = {'jan': 100, 'fev': 200, 'mar': 300}
+
+print(receita)
+
+# Forma 1 - Mais comum
+
+ret = receita.pop('mar')
+print(ret)
+
+print(receita)
+
+# OBS 1: Aqui precisamos sempre informar a chave e caso nao encontre o elemento, um KeyError é retornadi
+# OBS 2: Ao removermos um objeto, o valor deste objeto e sempre retornado
+
+# Forma 2
+
+del receita['fev']
+
+print(receita)
+
+# Se a chave não existir sera gerado um KeyError
+# OBS: Neste caso o valor removido nao e retornado
 
 
 
