@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="trabalhando com listas">
-      <change afterPath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,37 +37,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.Exercicios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.condicionais_if_else_elif.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dicionario.executor&quot;: &quot;Run&quot;,
-    &quot;Python.exercicios_and_or_not.executor&quot;: &quot;Run&quot;,
-    &quot;Python.listas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop_for.executor&quot;: &quot;Run&quot;,
-    &quot;Python.loop_while.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mapas.executor&quot;: &quot;Run&quot;,
-    &quot;Python.ranges.executor&quot;: &quot;Run&quot;,
-    &quot;Python.recebendo_dados_usiario.executor&quot;: &quot;Run&quot;,
-    &quot;Python.s5_exercicios.executor&quot;: &quot;Run&quot;,
-    &quot;Python.teste.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tipo_numero.executor&quot;: &quot;Run&quot;,
-    &quot;Python.tuplas.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Pichau/PycharmProjects/PythonProject&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.Exercicios.executor": "Run",
+    "Python.condicionais_if_else_elif.executor": "Run",
+    "Python.conjuntos.executor": "Run",
+    "Python.dicionario.executor": "Run",
+    "Python.exercicios_and_or_not.executor": "Run",
+    "Python.listas.executor": "Run",
+    "Python.loop_for.executor": "Run",
+    "Python.loop_while.executor": "Run",
+    "Python.mapas.executor": "Run",
+    "Python.ranges.executor": "Run",
+    "Python.recebendo_dados_usiario.executor": "Run",
+    "Python.s5_exercicios.executor": "Run",
+    "Python.teste.executor": "Run",
+    "Python.tipo_numero.executor": "Run",
+    "Python.tuplas.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/Pichau/PycharmProjects/PythonProject",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Pichau\PycharmProjects\PythonProject" />
@@ -109,7 +110,7 @@
       <workItem from="1762815066716" duration="3257000" />
       <workItem from="1762819117436" duration="1626000" />
       <workItem from="1762896475274" duration="10218000" />
-      <workItem from="1762987705287" duration="1841000" />
+      <workItem from="1762987705287" duration="3200000" />
     </task>
     <task id="LOCAL-00001" summary="trabalhando com listas">
       <option name="closed" value="true" />
@@ -158,6 +159,7 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/PythonProject$mapas.coverage" NAME="mapas Coverage Results" MODIFIED="1762913489366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe/mapas" />
     <SUITE FILE_PATH="coverage/PythonProject$exercicios_and_or_not.coverage" NAME="exercicios_and_or_not Coverage Results" MODIFIED="1761509996167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
+    <SUITE FILE_PATH="coverage/PythonProject$conjuntos.coverage" NAME="conjuntos Coverage Results" MODIFIED="1762990448730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe/conjuntos" />
     <SUITE FILE_PATH="coverage/PythonProject$loop_while.coverage" NAME="loop_while Coverage Results" MODIFIED="1761520580031" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe" />
     <SUITE FILE_PATH="coverage/PythonProject$listas.coverage" NAME="listas Coverage Results" MODIFIED="1762663986167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/guppe/Listas" />
     <SUITE FILE_PATH="coverage/PythonProject$recebendo_dados_usiario.coverage" NAME="recebendo_dados_usiario Coverage Results" MODIFIED="1761427507743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/.venv" />

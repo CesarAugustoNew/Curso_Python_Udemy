@@ -45,7 +45,23 @@ if 3 in s:
 else:
     print('nao tem o 3')
 
+# Importante lembrar que, alem de não termos valores duplicados, não temos ordem
 
+# Listas aceitam valores duplicados. então temos 10 elementos
+lista = [99, 2, 34, 23, 2, 12, 1, 44, 5, 34]
+print(f'Listas: {lista} com {len(lista)} elementos')
+
+# Tuplas aceitam valores duplicados, então temos 10 elementos
+tupla = 99, 2, 34, 23, 2, 12, 1, 44, 5, 34
+print(f'Tupla: {tupla} com {len(tupla)} elementos')
+
+# Dicionarios não aceitam chaves duplicadas, então temos 8 elementos
+dicionario = {}.fromkeys([99, 2, 34, 23, 2, 12, 1, 44, 5, 34], 'dict')
+print(f'Dicionarios: {dicionario} com {len(dicionario)} elementos')
+
+# Conjuntos não aceitam valores duplicados, então temos 8 elementos
+conjunto = {99, 2, 34, 23, 2, 12, 1, 44, 5, 34}
+print(f'Conjunto: {conjunto} com {len(conjunto)} elementos')
 
 
 
