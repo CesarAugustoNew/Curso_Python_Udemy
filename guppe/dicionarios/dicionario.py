@@ -72,6 +72,46 @@ localidade = {
 print(localidade)
 print(type(localidade))
 
+# Adicionar elementos em um dicionario
+
+receita = {'jan': 100, 'fev': 200, 'mar': 300}
+
+print(receita)
+print(type(receita))
+
+# Forma 1 - Mais comum
+
+receita['abr'] = 350
+
+print(receita)
+
+# Forma 2
+
+novo_dado = {'mai': 500}
+
+receita.update(novo_dado) # receita.update({'mai': 500})
+
+print(receita)
+
+# Atualizando dados em um dicionario
+
+# Forma 1
+
+receita['mai'] = 550
+print(receita)
+
+# Forma 2
+
+receita.update({'mai': 700})
+
+print(receita)
+
+# CONCLUSÃO 1: A forma de adicionar novos elementos ou atualizar dados em um dicionario e a mesma.
+# CONCLUSÃO 2: Em dicionarios, não podemos ter chaves repetidas.
+
+
+
+
 
 
 

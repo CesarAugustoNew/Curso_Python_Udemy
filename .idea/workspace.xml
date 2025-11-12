@@ -7,7 +7,6 @@
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="trabalhando com listas">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guppe/dicionarios/dicionario.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/dicionarios/dicionario.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guppe/dicionarios/tipo_none.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/tipo_Python/tipo_none.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +106,7 @@
       <workItem from="1762729252115" duration="1205000" />
       <workItem from="1762815066716" duration="3257000" />
       <workItem from="1762819117436" duration="1626000" />
-      <workItem from="1762896475274" duration="2810000" />
+      <workItem from="1762896475274" duration="3994000" />
     </task>
     <task id="LOCAL-00001" summary="trabalhando com listas">
       <option name="closed" value="true" />
