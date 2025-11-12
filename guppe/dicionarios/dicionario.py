@@ -184,6 +184,62 @@ print(carrinho)
 # Desta forma, facilmente adicionamos ou removemos produtos no carrinho e em cada produto podemos ter a certeza sobre cade informação.
 
 
+# Metodos de dicionario.
+
+d = dict(a=1, b=2, c=3)
+
+print(d)
+print(type(d))
+
+
+# Limpar o dicionario (Zerar dados)
+
+d.clear()
+
+print(d)
+
+# Copiando um dicionario para outro
+ 
+ # Forma 1 Deep Copy
+ 
+novo = d.copy()
+ 
+print(novo)
+ 
+novo['d'] = 4
+ 
+print(d)
+print(novo)
+
+# Forma 2 Shallow Copy
+
+novo = d
+
+print(novo)
+
+novo['d'] = 4
+
+print(d)
+print(novo)
+
+# Forma não usual de criação de dicionarios
+
+outro = {}.fromkeys('a', 'b')
+
+print(outro)
+print(type(outro))
+
+usuario = {}.fromkeys(['nome', 'pontos', 'email', 'profile'], 'desconhecido')
+print(usuario)
+print(type(usuario))
+
+# O metodo fromkeys recebe dois parametros: um interavel e um valor. Ele vai gerar para cada valor do iteravel uma chave e ira atribuir a esta chave o valor informado.
+
+veja = {}.fromkeys('teste', 'valor')
+print(veja)
+
+veja = {}.fromkeys(range(1, 11), 'novo')
+print(veja)
 
 
 
