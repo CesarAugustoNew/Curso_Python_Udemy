@@ -147,7 +147,10 @@ estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
 unicos1 = estudantes_python.union(estudantes_java)
 print(unicos1)
 
-#
+# Forma 2 - Utilizando o caractere pipe |
+unicos2 = estudantes_python | estudantes_java
+print(unicos2)
+
 
 
 
