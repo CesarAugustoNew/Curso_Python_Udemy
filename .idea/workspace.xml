@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="trabalhando com listas">
-      <change beforePath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1762815066716" duration="3257000" />
       <workItem from="1762819117436" duration="1626000" />
       <workItem from="1762896475274" duration="10218000" />
-      <workItem from="1762987705287" duration="5129000" />
+      <workItem from="1762987705287" duration="7873000" />
     </task>
     <task id="LOCAL-00001" summary="trabalhando com listas">
       <option name="closed" value="true" />

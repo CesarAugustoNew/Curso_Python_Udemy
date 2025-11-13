@@ -131,8 +131,23 @@ print(r)
 z.clear()
 print(z)
 
+# Metodos Matematicos de Conjuntos
 
+#Imagine que temos dois conjuntos: Um contendo estudantes do curso Python e um contendo estudantes do curso de Java
 
+estudantes_python = {'Marcos', 'Patricia', 'Ellen', 'Pedro', 'Julia', 'Guilherme'}
+estudantes_java = {'Fernando', 'Gustavo', 'Julia', 'Ana', 'Patricia'}
+
+# Veja que alguns alunos que estudam Python tambem estudam Java
+
+# Precisamos gerar um conjunto com nomes de estudantes unicos
+
+# Forma 1 - Utilizando union
+
+unicos1 = estudantes_python.union(estudantes_java)
+print(unicos1)
+
+#
 
 
 
