@@ -63,6 +63,21 @@ print(f'Dicionarios: {dicionario} com {len(dicionario)} elementos')
 conjunto = {99, 2, 34, 23, 2, 12, 1, 44, 5, 34}
 print(f'Conjunto: {conjunto} com {len(conjunto)} elementos')
 
+# Usos interessantes com sets
+
+# Imagine que fizemos um formulario de cadastro de visitantes em uma feira ou museu e os visitantes informam manualmente a cidade de onde vieram
+# Nós adicionamos cada cidade em uma lista Python, ja que em uma lista podemos adicionar novos elementos e ter repetição
+
+cidades = ['Belo Horizonte', 'São Paulo', 'Campo Grande', 'Cuiaba', 'Campo Grande', 'São Paulo', 'Cuiaba']
+
+print(cidades)
+print(len(cidades))
+
+# Agora precisamos saber quantas cidades distintas, ou seja, unicas, temos.
+# Podemos utilizar o set para isso:
+
+print(len(set(cidades)))
+
 
 
 
