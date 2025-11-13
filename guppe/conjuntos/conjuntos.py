@@ -78,6 +78,32 @@ print(len(cidades))
 
 print(len(set(cidades)))
 
+# Adicionando elementos em um conjunto
+s = {1, 2, 3}
+
+s.add(4)
+s.add(4) # Duplicidade não gera erro. Simplesmente é ignorado e não é adicionado
+print(s)
+
+# Remover elementos em um conjunto
+r = {1, 2, 3}
+print(r)
+
+# Forma 1
+
+r.remove(3) # Não é indice Informamos o valor a ser removido.
+
+print(r)
+
+# OBS: Caso o valor não seja encontrado será gerado o erro KeyError. Nenhum valor é retornado.
+
+# Forma 2
+
+r.discard(22)
+print(r)
+
+# OBS: Se o valor não for encontrado, nenhum erro é gerado
+
 
 
 
