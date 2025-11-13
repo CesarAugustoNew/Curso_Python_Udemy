@@ -105,6 +105,32 @@ print(r)
 # OBS: Se o valor não for encontrado, nenhum erro é gerado
 
 
+# Copiando um conjunto para outro
+
+# Forma 1 - Deep Copy
+z = {1, 2, 3}
+
+novo = z.copy()
+print(novo)
+
+novo.add(4)
+print(novo)
+print(z)
+
+# Forma 2 - Shallow Copy
+
+novo = r
+
+novo.add(4)
+
+print(novo)
+print(r)
+
+# Podemos remover todos os itens de um conjunto
+
+z.clear()
+print(z)
+
 
 
 
