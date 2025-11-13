@@ -151,6 +151,34 @@ print(unicos1)
 unicos2 = estudantes_python | estudantes_java
 print(unicos2)
 
+# Gerar um conjunto de estudantes que estao em ambos os cursos
+
+# Forma 1 - Utilizado intersection
+
+ambos1 = estudantes_python.intersection(estudantes_java)
+print(ambos1)
+
+# Forma 2 - Utilizando o &
+
+ambos2 = estudantes_python & estudantes_java
+print(ambos2)
+
+# Gerar um conjunto de estudantes que nao estao no outro cuso
+
+so_python = estudantes_python.difference(estudantes_java)
+print(so_python)
+
+so_java = estudantes_java.difference(estudantes_python)
+print(so_java)
+
+# Soma, Valor Maximo, Valor Minimo, Tamanho
+
+t = {1, 2, 3, 4, 5, 6}
+
+print(sum(t))
+print(max(t))
+print(min(t))
+print(len(t))
 
 
 
