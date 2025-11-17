@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc91cba4-5401-4064-9881-f1ad7c62166d" name="Changes" comment="trabalhando com listas">
+      <change afterPath="$PROJECT_DIR$/guppe/modulo_collections/counter.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" beforeDir="false" afterPath="$PROJECT_DIR$/guppe/conjuntos/conjuntos.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     "Python.Exercicios.executor": "Run",
     "Python.condicionais_if_else_elif.executor": "Run",
     "Python.conjuntos.executor": "Run",
+    "Python.counter.executor": "Run",
     "Python.dicionario.executor": "Run",
     "Python.exercicios_and_or_not.executor": "Run",
     "Python.listas.executor": "Run",
@@ -110,7 +111,8 @@
       <workItem from="1762815066716" duration="3257000" />
       <workItem from="1762819117436" duration="1626000" />
       <workItem from="1762896475274" duration="10218000" />
-      <workItem from="1762987705287" duration="9421000" />
+      <workItem from="1762987705287" duration="9447000" />
+      <workItem from="1763409688614" duration="2154000" />
     </task>
     <task id="LOCAL-00001" summary="trabalhando com listas">
       <option name="closed" value="true" />
